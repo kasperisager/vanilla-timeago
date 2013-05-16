@@ -1,0 +1,21 @@
+{
+   "folders":
+   [
+      {
+         "name": "Timeago",
+         "path": ".",
+         "file_exclude_patterns":
+         [
+            ".git",
+            ".gitignore",
+            "*.sublime-project",
+            "*.sublime-workspace"
+         ]
+      }
+   ],
+   "settings":
+   {
+      "tab_size": 3,
+      "detect_indentation": false
+   }
+}
