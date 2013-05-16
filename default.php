@@ -32,26 +32,26 @@ class Timeago extends Gdn_Plugin
       $Sender->AddJsFile('jquery.timeago.js', 'plugins/Timeago');
 
       $Locale = array(
-         'PrefixAgo'       => T('TimeAgo-PrefixAgo', NULL),
-         'PrefixFromNow'   => T('TimeAgo-PrefixFromNow', NULL),
-         'SuffixAgo'       => T('TimeAgo-SuffixAgo', 'ago'),
-         'SuffixFromNow'   => T('TimeAgo-SuffixFromNow', 'from now'),
-         'Seconds'         => T('TimeAgo-Seconds', 'less than a minute'),
-         'Minute'          => T('TimeAgo-Minute', 'about a minute'),
-         'Minues'          => T('TimeAgo-Minutes', '%d minutes'),
-         'Hour'            => T('TimeAgo-Hour', 'about an hour'),
-         'Hours'           => T('TimeAgo-Hours', 'about %d hours'),
-         'Day'             => T('TimeAgo-Day', 'a day'),
-         'Days'            => T('TimeAgo-Days', '%d days'),
-         'Month'           => T('TimeAgo-Month', 'about a month'),
-         'Months'          => T('TimeAgo-Months', '%d months'),
-         'Year'            => T('TimeAgo-Year', 'about a year'),
-         'Years'           => T('TimeAgo-Years', '%d years'),
-         'WordSeparator'   => T('TimeAgo-WordSeparator', ' '),
+         'PrefixAgo'       => T('Timeago-PrefixAgo', NULL),
+         'PrefixFromNow'   => T('Timeago-PrefixFromNow', NULL),
+         'SuffixAgo'       => T('Timeago-SuffixAgo', 'ago'),
+         'SuffixFromNow'   => T('Timeago-SuffixFromNow', 'from now'),
+         'Seconds'         => T('Timeago-Seconds', 'less than a minute'),
+         'Minute'          => T('Timeago-Minute', 'about a minute'),
+         'Minues'          => T('Timeago-Minutes', '%d minutes'),
+         'Hour'            => T('Timeago-Hour', 'about an hour'),
+         'Hours'           => T('Timeago-Hours', 'about %d hours'),
+         'Day'             => T('Timeago-Day', 'a day'),
+         'Days'            => T('Timeago-Days', '%d days'),
+         'Month'           => T('Timeago-Month', 'about a month'),
+         'Months'          => T('Timeago-Months', '%d months'),
+         'Year'            => T('Timeago-Year', 'about a year'),
+         'Years'           => T('Timeago-Years', '%d years'),
+         'WordSeparator'   => T('Timeago-WordSeparator', ' '),
          'Numbers'         => array()
       );
 
-      $Sender->AddDefinition('TimeAgoLocale', json_encode($Locale));
+      $Sender->AddDefinition('TimeagoLocale', json_encode($Locale));
 
       $Sender->Head->AddString('
 <script type="text/javascript">
@@ -61,7 +61,7 @@ class Timeago extends Gdn_Plugin
          $(this).timeago();
       });
 
-      var Locale = $.parseJSON(gdn.definition("TimeAgoLocale"));
+      var Locale = $.parseJSON(gdn.definition("TimeagoLocale"));
 
       $.timeago.settings.strings = {
          prefixAgo:     Locale.PrefixAgo,
