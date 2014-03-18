@@ -1,19 +1,18 @@
-<?php if (!defined('APPLICATION')) exit();
+<?php if (!defined('APPLICATION')) exit;
 
-$Definition['TimeagoPrefixAgo']        = NULL;
-$Definition['TimeagoPrefixFromNow']    = NULL;
-$Definition['TimeagoWordSeparator']    = ' ';
-
-$Definition['Timeago-SuffixAgo']       = 'ago';
-$Definition['Timeago-SuffixFromNow']   = 'from now';
-$Definition['Timeago-Seconds']         = 'less than a minute';
-$Definition['Timeago-Minute']          = 'about a minute';
-$Definition['Timeago-Minutes']         = '%d minutes';
-$Definition['Timeago-Hour']            = 'about an hour';
-$Definition['Timeago-Hours']           = 'about %d hours';
-$Definition['Timeago-Day']             = 'a day';
-$Definition['Timeago-Days']            = '%d days';
-$Definition['Timeago-Month']           = 'about a month';
-$Definition['Timeago-Months']          = '%d months';
-$Definition['Timeago-Year']            = 'about a year';
-$Definition['Timeago-Years']           = '%d years';
+$Definition['timeago.prefixAgo']     = null;
+$Definition['timeago.prefixFromNow'] = null;
+$Definition['timeago.suffixAgo']     = 'ago';
+$Definition['timeago.suffixFromNow'] = 'from now';
+$Definition['timeago.seconds']       = 'less than a minute';
+$Definition['timeago.minute']        = 'about a minute';
+$Definition['timeago.minutes']       = '%d minutes';
+$Definition['timeago.hour']          = 'about an hour';
+$Definition['timeago.hours']         = 'about %d hours';
+$Definition['timeago.day']           = 'a day';
+$Definition['timeago.days']          = '%d days';
+$Definition['timeago.month']         = 'about a month';
+$Definition['timeago.months']        = '%d months';
+$Definition['timeago.year']          = 'about a year';
+$Definition['timeago.years']         = '%d years';
+$Definition['timeago.wordSeparator'] = ' ';
