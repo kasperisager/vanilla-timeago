@@ -1,4 +1,4 @@
-<?php if (!defined('APPLICATION')) exit;
+<?php
 
 $Definition['timeago.prefixAgo']     = null;
 $Definition['timeago.prefixFromNow'] = null;
