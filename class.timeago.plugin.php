@@ -3,7 +3,7 @@
 $PluginInfo['timeago'] = array(
     'Name'        => "Timeago",
     'Description' => "Timeago adds automatically updating fuzzy timestamps (e.g. \"4 minutes ago\") throughout Garden.",
-    'Version'     => '2.0.0',
+    'Version'     => '2.0.1',
     'PluginUrl'   => 'https://github.com/kasperisager/vanilla-timeago',
     'Author'      => "Kasper Kronborg Isager",
     'AuthorEmail' => 'kasperisager@gmail.com',
