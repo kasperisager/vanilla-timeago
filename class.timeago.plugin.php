@@ -58,6 +58,6 @@ class TimeagoPlugin extends Gdn_Plugin
         $sender->addDefinition('Timeago', json_encode($definitions));
 
         // Add required assets
-        $sender->addJsFile($this->getResource('js/timeago.min.js', false, false));
+        $sender->addJsFile('timeago.min.js', 'plugins/timeago');
     }
 }
